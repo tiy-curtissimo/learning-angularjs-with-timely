@@ -1,7 +1,7 @@
 # Getting Started: Create an AngularJS Application
 
 AngularJS has a specific way to define an application
-called a **module**. We then use that *module* to
+called a **module**. We then use that module to
 register all of the other stuff we create so that the
 application knows where to get stuff to render in the
 SPA or use to get data or use to make some pretty
@@ -67,4 +67,76 @@ you look under the templates directory and see a
 directory named `session` and a file under that named
 `login.html`. That's probably the one.
 
-In Eclipse, you open
+![timely - find the login.html form](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/find-login-form-in-eclipse.png)
+
+In Eclipse, you open `login.html` and see that
+Michaela already added references to AngularJS down
+at the end of the `body` tag. Now, you add your newly
+created module by inserting a `script` tag after the
+others.
+
+```html
+  <script src="/js/angular-resource-1.6.4.min.js"></script>
+  <script src="/js/angular-ui-router-1.0.3.min.js"></script>
+
+  <!-- Your new AngularJS module! -->
+  <script src="/app/app.module.js"></script>
+
+</body>
+```
+
+[callout-warning]
+We're going to do this a lot, this create a new
+JavaScript file and add it to the HTML file that we're
+working on. Don't forget to do it *every single time*!
+
+If you forget to do it, you won't see the newly added
+thing that you've created. You'll end up spending time
+trying to figure out why it's not working when, in
+reality, it does work and you just forgot to include
+it in the page. I speak from personal experience with
+countless "D'OH!" moments because I forgot to do the
+`<script>` tag for the JavaScript file I just wrote.
+[/callout-warning]
+
+## Telling AngularJS to Use the Module
+
+Find the opening `<body>` tag. To tell AngularJS that
+we want it to control the content of the body, we add
+the AngularJS instruction to manage it, the `ng-app`
+attribute. We set the attribute to the name that we
+used to declare our module "app".
+
+```html
+</head>
+
+<!-- Add the ng-app instruction on the body -->
+<body ng-app="app">
+  <div class="card login-card">
+    <form method="post" action="/session/mine">
+```
+
+That's it. AngularJS has now bootstrapped our app into
+the Web page, "bootstrap" just being a silly term for
+"starting up". Save your file and take a look to see
+that nothing has changed.
+
+## What Did We Just Do?
+
+Even though it doesn't look like much (actually, it
+looks like nothing!), we started on the path to
+creating our AngularJS SPA. In this lesson, we
+
+* Learned that AngularJS organizes its stuff in
+**modules**;
+* Learned how to declare a **module**;
+* Created a JavaScript file that contains the
+declaration of our main module; and,
+* Included that JavaScript file with a `<script>` tag;
+and,
+* Added the AngularJS instruction that the application
+should control the content of the `<body>`.
+
+Now that we have that, we can start creating
+*components* to replace the HTML that we have on the
+screen with AngularJS-controlled behavior.
