@@ -1,4 +1,4 @@
-# Welcome to Single-Page Applications with Angular!
+# A History of SPAs
 
 The path to creating single-page applications (SPAs)
 for the Web was a long one. Knowing the path that Web
