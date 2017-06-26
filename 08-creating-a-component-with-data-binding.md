@@ -277,15 +277,14 @@ You kind of shake your head at that weird syntax and
 remember that you're going to use that really soon to
 be able to make AJAX calls.
 
-Finally, you just need a method to handle when a
-person tries to submit the form. In the HTML template,
-you set the form tag with
-`ng-submit="login.submitForm()"` so you need a
-`submitForm` method on the controller. For now, you
-just want to make sure it works, so you have it create
-a console message to show you the values of `username`
-and `password` and, then, clear out the values in the
-`<input>` fields.
+Next, you need a method to handle when a person tries
+to submit the form. In the HTML template, you set the
+form tag with `ng-submit="login.submitForm()"` so you
+need a `submitForm` method on the controller. For now,
+you just want to make sure it works, so you have it
+create a console message to show you the values of
+`username` and `password` and, then, clear out the
+values in the `<input>` fields.
 
 ```javascript
 class LoginCardController {
@@ -306,6 +305,38 @@ class LoginCardController {
     this.password = '';
   }
 
+}
+
+angular
+  .module('app')
+  .component('loginCard', {
+    templateUrl: '/app/login-card/login-card.component.html',
+    controllerAs: 'login',
+    controller: [() => new LoginCardController()]
+  });
+```
+
+Finally, you want to make sure that the `username` and
+`password` properties have empty strings as their
+initial values. You create a constructor for your
+controller and set those values appropriately.
+
+```javascript
+class LoginCardController {
+
+  // A constructor to set the initial values of
+  // username and password
+  constructor() {
+    this.username = '';
+    this.password = '';
+  }
+
+  submitForm() {
+    console.log('username:', this.username);
+    console.log('password:', this.password);
+    this.username = '';
+    this.password = '';
+  }
 }
 
 angular
