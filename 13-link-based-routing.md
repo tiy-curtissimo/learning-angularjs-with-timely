@@ -365,3 +365,44 @@ state.
   </form>
 </div>
 ```
+
+## A Band-Aid for the Java Views
+
+You notice that when you click the "SIGN UP!" link and
+transition to the sign-up state, everything looks fine
+until you refresh your browser. Then, the "CANCEL"
+button stops working.
+
+You realize that the URL `/users/new` still serves the
+content from the template `users/form.html` which
+doesn't contain all the hard work that you've done.
+You decide that the quick and dirty fix is ok, for
+now, and just copy-and-paste all of the content from
+`session/login.html` to `users/form.html`.
+
+[callout-warning]
+The thing about SPAs: they should *always* serve the
+same content with every request. In this case, the
+HTML at `session/login.html` and `users/form.html` are
+out of sync. You will create a better solution for
+this in the upcoming lessons.
+[/callout-warning]
+
+## What Did You Do?
+
+While you know that this has only scraped the surface
+of routing with `ui-router`, you sure do feel like you
+learned a lot along the way! You learned to
+
+* import a third-party module into your module;
+* plan the transitions between states of your
+  application;
+* configure `ui-router` with states that describe your
+  application;
+* configure the default route;
+* configure HTML5 history mode;
+* use `ui-sref` on `<a>` tags to initiate transitions
+  between different UI states; and,
+* make sure that the server always sends back the same
+  content so that the SPA can pick up where it left
+  off.
