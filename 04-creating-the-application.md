@@ -1,8 +1,8 @@
 # Getting Started: Create an AngularJS Application
 
 AngularJS has a specific way to define an application
-called a **module**. We then use that module to
-register all of the other stuff we create so that the
+called a **module**. You then use that module to
+register all of the other stuff you create so that the
 application knows where to get stuff to render in the
 SPA or use to get data or use to make some pretty
 formatting.
@@ -19,12 +19,12 @@ manage. The naming scheme is made up of three parts
 that go together like `[part1].[part2].[part3]`:
 
 1. The name of the thing you want to write. In our
-case, this is just the application module, so we name
+case, this is just the application module, so you name
 it `app`.
 1. The type of AngularJS thing that you're writing. In
-our case, we're declaring a module, so we use `module`.
-1. The content type of the file. In this case, we are
-writing JavaScript, so we use `js`. Another common file
+our case, we're declaring a module, so you use `module`.
+1. The content type of the file. In this case, you are
+writing JavaScript, so you use `js`. Another common file
 type extension that we'll use is `html`.
 [/callout-info]
 
@@ -50,7 +50,7 @@ TWO parameters:
 1. The name of the module which, in our case, is just
 `app`
 1. An array of other module names that you want to use
-in your module. We don't have any, yet, so we just
+in your module. You don't have any, yet, so you just
 do an empty array.
 [/callout-info]
 
@@ -102,9 +102,9 @@ countless "D'OH!" moments because I forgot to do the
 ## Telling AngularJS to Use the Module
 
 Find the opening `<body>` tag. To tell AngularJS that
-we want it to control the content of the body, we add
+we want it to control the content of the body, you add
 the AngularJS instruction to manage it, the `ng-app`
-attribute. We set the attribute to the name that we
+attribute. you set the attribute to the name that we
 used to declare our module "app".
 
 ```html
@@ -121,11 +121,11 @@ the Web page, "bootstrap" just being a silly term for
 "starting up". Save your file and take a look to see
 that nothing has changed.
 
-## What Did We Just Do?
+## What Did You Just Do?
 
 Even though it doesn't look like much (actually, it
-looks like nothing!), we started on the path to
-creating our AngularJS SPA. In this lesson, we
+looks like nothing!), you started on the path to
+creating our AngularJS SPA. In this lesson, you
 
 * Learned that AngularJS organizes its stuff in
 **modules**;
@@ -137,6 +137,6 @@ and,
 * Added the AngularJS instruction that the application
 should control the content of the `<body>`.
 
-Now that we have that, we can start creating
-*components* to replace the HTML that we have on the
+Now that you have that, you can start creating
+*components* to replace the HTML that you have on the
 screen with AngularJS-controlled behavior.
