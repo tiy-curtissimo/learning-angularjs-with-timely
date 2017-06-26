@@ -4,7 +4,7 @@ The first component that you'll create is the
 replacement for the "Not a user?" box on the login
 screen.
 
-![timely - create app.module.js](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/sign-up-link-box-highlighted.png)
+![timely - the registration call-to-action box](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/sign-up-link-box-highlighted.png)
 
 From this, you can learn the bare minimum that it
 takes to make an AngularJS component. There's nothing
