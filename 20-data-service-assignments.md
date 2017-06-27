@@ -23,5 +23,5 @@ to create the new data services.
 1. Implement it
 
 You also decide that you may consult with your old
-friend Jason Skipper to see if he has any other ways
-to approach these tasks.
+friend *instructor's name here* to see if they have
+any other way to approach these tasks.
