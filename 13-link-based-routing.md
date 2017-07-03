@@ -176,13 +176,13 @@ angular
       const loginState = {
         name: 'login',
         url: '/session/new',
-        component: 'login-page'
+        component: 'loginPage'
       };
 
       const signUpState = {
         name: 'signUp',
         url: '/users/new',
-        component: 'sign-up-card'
+        component: 'signUpCard'
       };
     }
   ]);
@@ -204,13 +204,13 @@ angular
       const loginState = {
         name: 'login',
         url: '/session/new',
-        component: 'login-page'
+        component: 'loginPage'
       };
 
       const signUpState = {
         name: 'signUp',
         url: '/users/new',
-        component: 'sign-up-card'
+        component: 'signUpCard'
       };
 
       $stateProvider.state(loginState);
