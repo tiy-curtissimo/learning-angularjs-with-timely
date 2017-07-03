@@ -43,7 +43,7 @@ tags at the bottom fo the file.
 
 ```
 
-### Step 3 Define and register the angular component
+### Step 3 Define and register the AngularJS component
 In `login-card.component.js`, you write the JavaScript
 that AngularJS requires you to register and define the
 component just like with the last component.

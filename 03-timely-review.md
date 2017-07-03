@@ -12,7 +12,7 @@ Your friend Michaela has a little app that she wrote to
 do just that. She said that she'd share it with you if
 you'd make it a SPA because it's just a dumb old Web
 app, right now. You decided to take on the challenge
-and learn yourself a little Angular along the way.
+and learn yourself a little AngularJS along the way.
 
 You go over to GitHub and create a fork from the repo,
 clone it, and run the Java application after following

@@ -155,7 +155,7 @@ that you had, you'll replace all of that with this.
 When you refresh the page, you see nothing has changed
 visually. That's what you expected. But, then, you
 open the developer tools in your browser and smile
-when you see that Angular has inserted the contents
+when you see that AngularJS has inserted the contents
 of your component's HTML.
 
 ![timely - component in inspector](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/component-in-inspector.png)
