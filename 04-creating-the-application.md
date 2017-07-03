@@ -40,7 +40,7 @@ directory. Under there, you create the `app` directory.
 Inside the `app` directory, you create a file named
 `app.module.js`.
 
-![timely - create app.module.js](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/create-app-module-in-eclipse.png)
+![timely - create app.module.js](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/create-app-module-in-eclipse.png)
 
 [callout-info]
 To declare a *module* in AngularJS, you call the
@@ -67,7 +67,7 @@ you look under the templates directory and see a
 directory named `session` and a file under that named
 `login.html`. That's probably the one.
 
-![timely - find the login.html form](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/find-login-form-in-eclipse.png)
+![timely - find the login.html form](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/find-login-form-in-eclipse.png)
 
 In Eclipse, you open `login.html` and see that
 Michaela already added references to AngularJS down

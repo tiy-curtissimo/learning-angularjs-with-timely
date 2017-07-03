@@ -76,7 +76,7 @@ link that it should replace the `login-page`
 component with the `sign-up-card` component, a
 one-for-one switch.
 
-![timely - routing between two components](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/simple-routing-design.png)
+![timely - routing between two components](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/simple-routing-design.png)
 
 That should be easy enough. First, you have to get all
 the components onto one page.
@@ -107,7 +107,7 @@ configure the settings of the `ui-router`. So, you
 create a new file named `app.config.js` in the `app`
 directory right next to the `app.module.js` file.
 
-![timely - create the app.config.js file](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/create-app.module.js.png)
+![timely - create the app.config.js file](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/create-app.module.js.png)
 
 You include the configuration file in the
 `session/login.html` code.

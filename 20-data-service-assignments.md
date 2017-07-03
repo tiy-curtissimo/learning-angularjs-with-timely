@@ -4,7 +4,7 @@ You want that datas! You look at the list of API
 controllers and mentally mark off the
 `TimeEntriesApiController` from the list.
 
-![timely - list of API controllers](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/api-controllers.png)
+![timely - list of API controllers](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/api-controllers.png)
 
 You have two more API controllers that need data
 services. You will

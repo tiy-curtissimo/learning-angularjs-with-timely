@@ -1,6 +1,6 @@
 # The Time Entry Page
 
-![timely - the time entry page](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/timely-work-1.png)
+![timely - the time entry page](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/timely-work-1.png)
 
 You see the time entry page and, all of a sudden,
 everything seems to snap into place about how to build

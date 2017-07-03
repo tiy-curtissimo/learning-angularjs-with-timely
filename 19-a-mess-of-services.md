@@ -10,7 +10,7 @@ Inside the `com.theironyard.timeliness.controllers`
 package, you see the API controllers that she's
 created for just such a need.
 
-![timely - list of API controllers](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/api-controllers.png)
+![timely - list of API controllers](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/api-controllers.png)
 
 You decide to tackle the API for time entries, first.
 
@@ -98,7 +98,7 @@ You create a new directory named `time-entries-data`
 under the `app` directory and create a file in it
 named `time-entries-data.service.js`.
 
-![timely - create the time-entries-data.service.js file](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/create-time-entries-data.service.js-file.png)
+![timely - create the time-entries-data.service.js file](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/create-time-entries-data.service.js-file.png)
 
 Then, you *immediately* add it to the `common/spa.html`
 

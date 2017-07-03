@@ -12,7 +12,7 @@ person's clients, a button to kick off the report
 generation, and the actual report.
 
 ![timely - report
-page](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/report.png)
+page](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/report.png)
 
 You decide to tackle this in phases:
 
@@ -160,7 +160,7 @@ only when their are no clients.
 
 When you look at the report page for "hector", you see
 
-![timely - AngularJS showing no clients](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/ng-if-on-report-screen.png)
+![timely - AngularJS showing no clients](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/ng-if-on-report-screen.png)
 
 and when you look at it for "maria", you see nothing.
 The `ng-if` works as advertised! You thank the

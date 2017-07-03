@@ -6,7 +6,7 @@ take the next step and try out something harder. You
 choose to replace the login card with an AngularJS
 component.
 
-![timely - the login box](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/login-box-highlighted.png)
+![timely - the login box](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/login-box-highlighted.png)
 
 You immediately realize that this one is more
 difficult than the rest. This has some behavior, so
@@ -26,7 +26,7 @@ You follow the five steps of general creation.
 You decide to name your component `login-card` and
 create the subdirectory and files accordingly.
 
-![timely - the login-card files](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/create-login-card-files.png)
+![timely - the login-card files](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/create-login-card-files.png)
 
 ### Step 2: Add the component file to the Web page
 You open the `session/login.html` file, again, and
@@ -106,7 +106,7 @@ token ```<input type="hidden" name="{{
 _csrf.parameterName }}" value="{{ _csrf.token }}">```
 rendered without a name or value.
 
-![timely - where is the CSRF?](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/login-messed-up-elements.png)
+![timely - where is the CSRF?](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/login-messed-up-elements.png)
 
 This makes total sense to you. Originally, Spring on
 the server was taking this input and rendering the

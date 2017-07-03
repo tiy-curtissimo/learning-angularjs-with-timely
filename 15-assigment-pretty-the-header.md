@@ -7,7 +7,7 @@ thing is to move over the header that is on all of the
 application pages.
 
 ![timely - header
-highlighted](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/header-highlighted.png)
+highlighted](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/header-highlighted.png)
 
 You choose not to worry about the links in the tabs,
 just yet. You'll take care of that in the routing in

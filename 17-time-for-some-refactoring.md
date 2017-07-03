@@ -30,7 +30,7 @@ include one template in another with this syntax:
 You create a new file named `spa.html` under the
 common subdirectory of the templates area.
 
-![timely - create the spa.html page](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/create-the-spa.html-page.png)
+![timely - create the spa.html page](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/create-the-spa.html-page.png)
 
 You open the `session/login.html` file and copy the
 contents of it into the `common/spa.html` file.
@@ -123,7 +123,7 @@ You create a new directory under `app` named
 appropriately, `authentication.service.js`. You
 *immediately* add it to the `common/spa.html` file.
 
-![timely - add the authentication.service.js file](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/create-authentication.service.js-file.png)
+![timely - add the authentication.service.js file](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/create-authentication.service.js-file.png)
 
 In the same way that you use the `component` method of
 the `angular.module` object to create a component, you

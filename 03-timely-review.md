@@ -35,7 +35,7 @@ idea of turning this into a product at some point what
 with that "Not a user?" box. Hmmm...
 
 ![timely - login
-screen](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/login-screen.png)
+screen](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/login-screen.png)
 
 You type in the demo account username of "maria" and
 the password "maria". That takes you to the main page
@@ -48,12 +48,12 @@ enter your daily time that you spend for each of your
 clients.
 
 ![timely - main screen after
-login](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/timely-work-1.png)
+login](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/timely-work-1.png)
 
 You click the "FINISH" button to see what happens.
 
 ![timely - main screen after you finish
-work](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/timely-work-finish.png)
+work](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/timely-work-finish.png)
 
 Well, that seems reasonable: it set the current time
 for end of that entry. Work is done for Bret's
@@ -73,7 +73,7 @@ On the clients page, you see the list of clients and a
 big yellowish/light-orangey ADD button.
 
 ![timely - clients
-list](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/clients-list.png)
+list](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/clients-list.png)
 
 You remember that "Active" clients show up in the drop
 down on the first page, that you can book work against
@@ -81,7 +81,7 @@ down on the first page, that you can book work against
 Sweets" and see the edit form.
 
 ![timely - edit form for allie's
-sweets](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/client-edit-form.png)
+sweets](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/client-edit-form.png)
 
 You decide to click the "deactivate" button in the
 upper right corner and, sure enough, Allie's Sweets
@@ -92,7 +92,7 @@ the Enter key. Sure enough, "Marigold" shows up in your
 list.
 
 ![timely - clients list iwth marigold cabs in
-it](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/clients-list-with-marigold.png)
+it](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/clients-list-with-marigold.png)
 
 You go back to the "TODAY'S WORK" tab and check out the
 drop down with the clients in it. *Allie's Sweets* is
@@ -100,7 +100,7 @@ not there because you made that client inactive, and
 *Marigold Cabs* is there because you just added it!
 
 ![timely - marigold in drop down, allie's sweets
-not](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/marigold-in-drop-down.png)
+not](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/marigold-in-drop-down.png)
 
 ## The Report Page
 
@@ -111,14 +111,14 @@ shows the number of hours worked for "Zantina
 Unlimited".
 
 ![timely - report
-page](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/report.png)
+page](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/report.png)
 
 On a lark, you generate the report for "Marigold Cabs"
 and see nothing. That makes sense: you've done no work
 for them.
 
 ![timely - empty report page for
-Marigold](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/empty-report-for-marigold.png)
+Marigold](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/empty-report-for-marigold.png)
 
 ## The Logout
 
@@ -126,7 +126,7 @@ So, you click the "SIGN OUT" button. It takes you back
 to the login screen.
 
 ![timely - login
-screen](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/login-screen.png)
+screen](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/login-screen.png)
 
 ## The Sign Up Experience
 
@@ -134,7 +134,7 @@ The only thing left to do is try out that "SIGN UP!"
 button. You click it and see the sign up page.
 
 ![timely - sign up
-screen](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/sign-up-page.png)
+screen](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/sign-up-page.png)
 
 You type in your name and a password and click the
 "REGISTER" button to see an empty "TODAY'S WORK" page
@@ -142,7 +142,7 @@ telling you that you need some active clients before
 you can do anything.
 
 ![timely - sign up
-screen](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/empty-clients-list.png)
+screen](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/empty-clients-list.png)
 
 That makes total sense.
 

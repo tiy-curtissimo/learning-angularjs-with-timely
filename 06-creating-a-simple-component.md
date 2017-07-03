@@ -4,7 +4,7 @@ The first component that you'll create is the
 replacement for the "Not a user?" box on the login
 screen.
 
-![timely - the registration call-to-action box](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/sign-up-link-box-highlighted.png)
+![timely - the registration call-to-action box](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/sign-up-link-box-highlighted.png)
 
 From this, you can learn the bare minimum that it
 takes to make an AngularJS component. There's nothing
@@ -26,7 +26,7 @@ configuration and behavior (none for this example),
 and the `.html` file that will hold the HTML for the
 component.
 
-![timely - created registration-cta files](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/created-registration-cta-files.png)
+![timely - created registration-cta files](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/created-registration-cta-files.png)
 
 With those files in place, you *immediately go to the
 `login.html` file and add a new `<script>` tag!*
@@ -158,7 +158,7 @@ open the developer tools in your browser and smile
 when you see that Angular has inserted the contents
 of your component's HTML.
 
-![timely - component in inspector](https://tiy-corp-train.github.io/newline-media/learning-angular-with-timely/component-in-inspector.png)
+![timely - component in inspector](https://tiy-corp-train.github.io/newline-media/learning-angularjs-with-timely/component-in-inspector.png)
 
 ## What Did You Just Do?
 
