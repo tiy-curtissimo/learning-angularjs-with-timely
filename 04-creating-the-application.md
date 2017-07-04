@@ -54,6 +54,14 @@ in your module. You don't have any, yet, so you just
 do an empty array.
 [/callout-info]
 
+After you've finished typing in the `app.module.js`
+file, you have:
+
+```javascript
+angular
+  .module('app', []);
+```
+
 You save the file.
 
 ## Adding the Module to the Login Page
