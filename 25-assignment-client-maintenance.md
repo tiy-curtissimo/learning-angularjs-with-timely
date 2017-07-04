@@ -19,12 +19,17 @@ You realize that `/clients/new` and
 `/clients/«clientId»` are just nested states of the
 state that represents `/clients`. You know how to make
 nested states! The only thing you need to figure out
-is that `clientId` parameter thing, but you know you
-can find it on the
-[ui-router](https://ui-router.github.io) site. So you
-don't worry to much about that. You know about
-component bindings from the dropdown component. You're
-covered.
+is that `clientId` parameter thing and how to use it
+with `ui-router` `resolve`s, but you know you can find
+it on the
+[ui-router](https://ui-router.github.io) site. You
+keep a browser open to the [ui-router
+API](https://ui-router.github.io/ng1/docs/latest/) to
+keep all the weirdness close to you. The documentation
+is kind of hard to read; you know that this is just a
+pill you'll have to swallow. So you don't worry to much
+about that. You know about component bindings from the
+dropdown component. You're covered.
 
 Otherwise, it's just data-binding and some `ui-sref`s
 and some `ng-click` handling.
