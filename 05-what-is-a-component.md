@@ -67,7 +67,7 @@ AngularJS will put into a Web page for you and manage
 as if they're all one thing. This means that you can
 have things that look like your own HTML tags in your
 Web page that could make your Web page source look
-liek this, though I can't imagine what you'd try to
+like this, though I can't imagine what you'd try to
 accomplish with such a thing.
 
 ```html
