@@ -20,7 +20,8 @@ the directions in the README file. You open a browser
 to [http://localhost:5000](http://localhost:5000) and
 start figuring out the application.
 
-**Reminder** \ You remind yourself that all of the
+**Reminder** \
+You remind yourself that all of the
 server-side stuff is done. You just have to deal with
 the stuff in the browser: the HTML and JavaScript and
 CSS. Michaela has alread written the API for you to
