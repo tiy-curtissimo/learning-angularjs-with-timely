@@ -71,8 +71,8 @@ exploration of AngularJS, you'll run into more.
 
 To use dependency injection, you tell AngularJS the
 name of the thing that you want injected. AngularJS
-passes finds it and passes it to your controller or
-raises an error.
+finds it and passes it to your controller or raises
+an error.
 
 To get the `$http` service into your controller, you
 modify the registration of the controller in the
